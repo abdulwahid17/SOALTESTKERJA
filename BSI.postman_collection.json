@@ -1,0 +1,78 @@
+{
+	"id": "4fc03def-e5e2-4188-1296-3471d03538c9",
+	"name": "BSI",
+	"description": "",
+	"order": [
+		"cf2dbd05-cbbc-aa29-c0c6-75da8ce563e0",
+		"65fb20fe-4a6b-9234-1cca-49c6bd8512e9"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1624617630295,
+	"owner": 0,
+	"public": false,
+	"requests": [
+		{
+			"id": "65fb20fe-4a6b-9234-1cca-49c6bd8512e9",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "10.0.116.108:8668/confirmScreening/",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "4fc03def-e5e2-4188-1296-3471d03538c9",
+			"data": [],
+			"dataMode": "raw",
+			"name": "10.0.116.108:8668/confirmScreening/",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1624621812569,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\t\r\n\t\"id\":\"543234543565\",\r\n\t\"screeningId\": \"1234567890\",\r\n    \"subsystem\":\"EXA\",\r\n\t\"matchScreening\":[\r\n\t\t\"0956FCDA-A81F-4A74-8972-1929EBEE3778\",\r\n\t\t\"78052E49-2E24-439C-948E-C8A92A0226A2\"\r\n\t]\r\n}\r\n"
+		},
+		{
+			"id": "cf2dbd05-cbbc-aa29-c0c6-75da8ce563e0",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "10.0.116.108:8668/checkNameAndRiskProfileCorporate /",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "4fc03def-e5e2-4188-1296-3471d03538c9",
+			"data": [],
+			"dataMode": "raw",
+			"name": "10.0.116.108:8668/checkNameAndRiskProfileCorporate /",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1624621097405,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\r\n\t\"id\":\"1234567890\",\r\n\t\"name\":\"SUN FANG INDONESIA PT\",\r\n\t\"identityNo\":\"\",\r\n\t\"dateOfBirth\":\"01/12/1963\",\r\n\t\"address\":\"Libya\",\r\n\t\"country\":\"Libya\",\t\r\n\t\"natureOfBusiness\":\"Pertambangan\",\r\n\t\"distributionChannel\":\"Internet Banking\",\r\n\t\"product\":\"Tabungan\",\t\r\n\t\"subsystem\":\"EXA\",\r\n\t\"director\":[\r\n\t\t{\r\n\t\t\t\"name\":\"ABU SOFYAN JALIL\",\r\n\t\t\t\"dateOfBirth\":\"01/12/1973\",\r\n\t\t\t\"country\":\"Libya\",\r\n\t\t\t\"position\":\"Direktur Utama\"\r\n\t\t},\r\n\t\t{\r\n\t\t\t\"name\":\"ABU RAJAH JALIL\",\r\n\t\t\t\"dateOfBirth\":\"01/13/1973\",\r\n\t\t\t\"country\":\"Libya\",\r\n\t\t\t\"position\":\"Wakil Direktur\"\r\n\t\t}\r\n\t]\r\n}\r\n"
+		}
+	]
+}
